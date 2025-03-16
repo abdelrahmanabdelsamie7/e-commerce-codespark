@@ -1,0 +1,25 @@
+<div class="container col-md-6">
+  <form>
+    <div class="form-group">
+      <input type="text" name="name" [(ngModel)]="trainee.name" placeholder="Enter Your Name" class="form-control my-2">
+    </div>
+    <div class="form-group">
+      <input type="email" name="email" [(ngModel)]="trainee.email" placeholder="Enter Your Email"
+        class="form-control my-2">
+    </div>
+    <div class="form-group">
+      <input type="password" name="password" [(ngModel)]="trainee.password" placeholder="Enter Your Password"
+        class="form-control my-2">
+    </div>
+    <div class="form-group">
+      <input type="password" name="password_confirmation" [(ngModel)]="trainee.password_confirmation"
+        placeholder="Cofirm Password" class="form-control my-2">
+    </div>
+    <div class="form-group">
+      <input type="text" name="diploma" [(ngModel)]="trainee.diploma" placeholder="Enter Your Diploma"
+        class="form-control my-2">
+    </div>
+    <button type="submit" class="btn btn-dark d-block mx-auto" (click)="addTrainee()">Add Trainee</button>
+  </form>
+  <p class="text-danger">{{ msg }}</p>
+</div>

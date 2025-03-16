@@ -5,4 +5,5 @@ export interface Subcategory {
   category: string;
   createdAt: string;
   updatedAt: string;
+
 }

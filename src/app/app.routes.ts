@@ -4,6 +4,7 @@ import { ListCategoriesComponent } from './site/category/list-categories/list-ca
 import { ListSubcategoriesComponent } from './site/subcategory/list-subcategories/list-subcategories.component';
 
 export const routes: Routes = [
+  // localhost:4200/
   { path: '', component: ListSubcategoriesComponent }
   , { path: 'show-subcategory/:id', component: ShowSubcategoryComponent }
 ];
